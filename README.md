@@ -11,11 +11,11 @@ This repository contains the necessary code and resources to implement a serverl
 
 ## Contents
 
-- `lambda_function.py`: Main Lambda function for handling contact form submissions and generating AI quotes
-- `test_event.json`: Sample test event for the contact form Lambda function
-- `template.py`: Template generator for AI inspirational quotes
-- `main.js`: JavaScript code for contact form submission handling
-- `HTML5 UP Dimensions Template`: Template for the static website, including the contact form
+- [`lambda_function.py`](./lambda_function.py): Main Lambda function for handling contact form submissions and generating AI quotes
+- [`lambda_test_event.json`](./lambda_test_event.json): Sample test event for the contact form Lambda function
+- [`template.py`](./template.py): Template generator for AI inspirational quotes
+- [`main.js`](./main.js): JavaScript code for contact form submission handling
+- [`HTML5 UP Dimension Template`](./html5up-dimension): Template for the static website, including the contact form
 
 ## Solution Architecture
 
