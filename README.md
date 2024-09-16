@@ -3,7 +3,7 @@
 <h1 align="center">Build GenAI-Integrated Serverless Contact Forms for Static Websites With AWS Lambda, API Gateway, Bedrock, and SES</h1>
 
 <p align="center">
-  <a href="https://docs.digitalden.cloud" target="_blank">
+  <a href="https://docs.digitalden.cloud/posts/build-genai-integrated-serverless-contact-forms-for-static-websites-with-aws-lambda-api-gateway-bedrock-and-ses/" target="_blank">
     <img src="https://img.shields.io/badge/Documentation-008CBA?style=for-the-badge&logo=read-the-docs&logoColor=white&labelColor=005f7f" alt="Documentation">
   </a>
 
