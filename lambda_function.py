@@ -3,7 +3,7 @@ import boto3
 import os
 import logging
 from botocore.exceptions import ClientError
-from template import generate_content_prompt
+from template import generate_quote_prompt
 
 # Set up logging
 logger = logging.getLogger()
@@ -89,7 +89,7 @@ def generate_quote_with_bedrock():
         system_prompt = "You are an assistant that generates concise and original quotes to engage and inspire users."
         
         # User message for the prompt
-        user_message = {"role": "user", "content": generate_content_prompt()}
+        user_message = {"role": "user", "content": generate_quote_prompt()}
         
         # Prepare the request body
         native_request = {
