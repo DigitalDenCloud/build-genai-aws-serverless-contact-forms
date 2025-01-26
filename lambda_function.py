@@ -15,7 +15,7 @@ SENDER = os.environ['SENDER_EMAIL']
 SENDER_NAME = os.environ['SENDER_NAME']
 SES_REGION = os.environ['SES_REGION']
 BEDROCK_REGION = os.environ['BEDROCK_REGION']
-MODEL_ID = os.environ['CLAUDE_MODEL_ID']
+MODEL_ID = os.environ['MODEL_ID']
 
 # Validate required environment variables
 required_vars = [RECEIVER, SENDER, SENDER_NAME, SES_REGION, BEDROCK_REGION, MODEL_ID]
