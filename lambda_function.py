@@ -15,10 +15,10 @@ SENDER = os.environ['SENDER_EMAIL']
 SENDER_NAME = os.environ['SENDER_NAME']
 SES_REGION = os.environ['SES_REGION']
 BEDROCK_REGION = os.environ['BEDROCK_REGION']
-MODEL_ID = os.environ['MODEL_ID']
+CLAUDE_MODEL_ID = os.environ['CLAUDE_MODEL_ID']
 
 # Validate required environment variables
-required_vars = [RECEIVER, SENDER, SENDER_NAME, SES_REGION, BEDROCK_REGION, MODEL_ID]
+required_vars = [RECEIVER, SENDER, SENDER_NAME, SES_REGION, BEDROCK_REGION, CLAUDE_MODEL_ID]
 if not all(required_vars):
     raise EnvironmentError("Missing one or more required environment variables")
 
@@ -101,7 +101,7 @@ def generate_quote_with_bedrock():
         
         # Call the Bedrock model
         response = bedrock.invoke_model(
-            modelId=MODEL_ID,
+            modelId=CLAUDE_MODEL_ID,
             body=json.dumps(native_request),
             contentType='application/json',
             accept='application/json'
